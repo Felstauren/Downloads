@@ -4,14 +4,16 @@ import os, shutil, time
 import os.path 
 from os import path
 
+dateYear = (time.strftime("%Y")) + "\\"
+
 alter_pfad = r"C:\Users\janni\Downloads"
-neuer_pfad_Biologie = r"D:\Schule\Bio\Moodle\2024\\"
-neuer_pfad_Chemie = r"D:\Schule\Chemie\Moddle\2024\\"
-neuer_pfad_Deutsch = r"D:\Schule\Deutsch\Moddle\2024\\"
-neuer_pfad_Englisch = r"D:\Schule\Englisch\Moddle\2024\\"
-neuer_pfad_Italienisch = r"D:\Schule\Italienisch\Moodle\2024\\"
-neuer_pfad_Mathematik = r"D:\Schule\Mathe\Moodle\2024\\"
-neuer_pfad_Geschichte = r"D:\Schule\Geschichte\Moodle\2024\\"
+neuer_pfad_Biologie = r"D:\Schule\Bio\Moodle\\" + dateYear + "\\"
+neuer_pfad_Chemie = r"D:\Schule\Chemie\Moddle\\" + dateYear + "\\"
+neuer_pfad_Deutsch = r"D:\Schule\Deutsch\Moddle\\" + dateYear + "\\"
+neuer_pfad_Englisch = r"D:\Schule\Englisch\Moddle\\" + dateYear + "\\"
+neuer_pfad_Italienisch = r"D:\Schule\Italienisch\Moodle\\" + dateYear + "\\"
+neuer_pfad_Mathematik = r"D:\Schule\Mathe\Moodle\\" + dateYear + "\\"
+neuer_pfad_Geschichte = r"D:\Schule\Geschichte\Moodle\\" + dateYear + "\\"
 
 date = (time.strftime("%d.%m.%Y"))
 
